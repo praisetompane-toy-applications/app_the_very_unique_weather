@@ -1,5 +1,5 @@
 {
-	"name": "the_very_unique_weather_app",
+	"name": "app_weather",
 	"build": {
 		"dockerfile": "../Dockerfile"
 	},
@@ -14,5 +14,6 @@
 	"forwardPorts": [
 		"8080:8080"
 	],
-	"workspaceFolder": "/the_very_unique_weather_app"
+	"workspaceMount": "source=${localWorkspaceFolder},target=/app_weather,type=bind,consistency=delegated",
+	"workspaceFolder": "/app_weather"
 }

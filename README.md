@@ -1,12 +1,12 @@
-# The Very Unique Weather App ;)
-![build status](https://github.com/praise-toy-applications/the_very_unique_weather_app/actions/workflows/the_very_unique_weather_app_merge.yml/badge.svg) <br>
+# app_weather ;)
+![build status](https://github.com/praisetompane-toy-applications/app_weather/actions/workflows/app_weather_merge.yml/badge.svg) <br>
 
 ### Objective:
-- A toy simple weather application to experiment with the full life-cycle of a React Single Page Application.
+- A toy weather application to experiment with the full life-cycle of a React Single Page Application.
 
 ### Application Tour
 
-##### You can find the deployed version of the application here: [the-very-unique-weather](https://praisetompane-toy-weather-app.web.app/)
+##### You can find the deployed version of the application here: [app_weather](https://praisetompane-app-weather.web.app/)
 
 
 ##### 0. Homepage
@@ -59,8 +59,6 @@ pnpm run build
 # from root directory
 pnpm run firebase-init
 ```
-Hosting
-dist
 
 ```shell
 # from root directory
